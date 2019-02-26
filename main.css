@@ -1,0 +1,55 @@
+body {
+    background-color: slategray;
+}
+
+
+main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+    border: 4px solid black;
+    height: 200px;
+}
+
+footer {
+    position: absolute ;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav {
+    background-color: #e3f2fd;
+}
+
+
+.col-sm {
+    background-color: greenyellow;
+    border: 2px solid darkolivegreen;
+    margin-inline-end: 6px;
+    margin-top: 10px;
+    height: 55px;
+    
+}
+
+/* .row {
+    background-color: darkorange;
+} */
+
+
+#myface {
+    margin: 5px;
+    height: 15%;
+    width: 15%;
+}
+
+.row {
+    margin-top: 30px;
+    border: 2px solid green;
+    width: 50%;
+}
+
+.col-md-5 {
+    height: 150px;
+    margin-right: 10px;
+    border: 2px solid black;
+    background-color: lightgreen;
+}
