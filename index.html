@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scott Hansford Bootstrap Portfolio</title>
 
     <!-- bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- my CSS -->
     <link rel="stylesheet" href="main.css">
 
@@ -15,10 +17,12 @@
 
 <body>
     <!-- Navbar content -->
-    <nav class="navbar navbar-fixed-top navbar-light  justify-content-center  ">
-            <header><h1>Scott Hansford Portfolio</h1></header>
+    <nav class="navbar navbar-fixed-top navbar-light  justify-content-center  " id="nav-top">
+        <header>
+            <h1>Scott Hansford Portfolio</h1>
+        </header>
 
-        <ul class="nav justify-content-center container-fluid">
+        <ul class="nav justify-content-center container">
             <li class="nav-item">
                 <a class="nav-link" href="index.html">Home</a>
             </li>
@@ -29,34 +33,25 @@
                 <a class="nav-link" href="contact.html">Contact</a>
             </li>
         </ul>
-    </nav>       
+    </nav>
 
-        <main class="container-fluid">
-            <div class="media">
-                <img class="align-self-center mr-3" src="images/myface.jpg" id="myface" alt="My face">
-                <div class="media-body">
-                <h5 class="mt-0">Center-aligned media</h5>
-                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
-                <p class="mb-0">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                </div>
+    
+    <main class="container">
+        <div class="media">
+            <img class="align-self-center mr-3" src="images/myface.jpg" id="myface" alt="My face">
+            <div class="media-body">
+                <h3 class="mt-0">Center-aligned media</h3>
+                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras
+                    purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi
+                    vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                <p class="mb-0">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis
+                    natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
             </div>
-        </main>
+        </div>
+    </main>
 
-        <footer>Copyright @Scott Hansford 2019</footer>
-    
-    
-    <!--jQuery, Popper.js, and bootsrap JS plugins -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <!--    Alerts for dismissing
-            Buttons for toggling states and checkbox/radio functionality
-            Carousel for all slide behaviors, controls, and indicators
-            Collapse for toggling visibility of content
-            Dropdowns for displaying and positioning (also requires Popper.js)
-            Modals for displaying, positioning, and scroll behavior
-            Navbar for extending our Collapse plugin to implement responsive behavior
-            Tooltips and popovers for displaying and positioning (also requires Popper.js)
-            Scrollspy for scroll behavior and navigation updates -->
+    <footer class="footer text-center">Copyright @Scott Hansford 2019</footer>
+
 </body>
+
 </html>
