@@ -13,6 +13,10 @@ main {
     background-color: green;
 }
 
+.container {
+  height: auto;
+}
+
 .col-sm {
     background-color: greenyellow;
     border: 2px solid darkolivegreen;
@@ -34,12 +38,13 @@ main {
 
 .row {
     margin-top: 30px;
-    border: 2px solid green;
 
 }
 
 .col-md-4 {
-    height: 150px;
+    padding-top: 20px;
+    
+    height: 280px;
     margin-right: 10px;
     border: 2px solid black;
     background-color: lightgreen;
